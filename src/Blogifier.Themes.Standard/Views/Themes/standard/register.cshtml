@@ -39,6 +39,7 @@
     <label for="loginPassword"> @_localizer["password"]</label>
     <span class="validation-message" asp-validation-for="Password"></span>
   </div>
+  <small class="form-text text-muted">@_localizer["password-requirements"]</small>
   <div class="form-floating form-item">
     <input id="registerConfirmPassword" asp-for="PasswordConfirm" class="form-control" type="password" placeholder="@_localizer["confirm-password"]">
     <label for="registerConfirmPassword">@_localizer["confirm-password"]</label>

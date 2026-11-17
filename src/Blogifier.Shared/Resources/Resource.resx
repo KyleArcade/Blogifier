@@ -126,6 +126,9 @@
   <data name="password" xml:space="preserve">
     <value>Password</value>
   </data>
+  <data name="password-requirements" xml:space="preserve">
+    <value>Use at least 6 characters, including a lowercase letter and a digit. Uppercase letters and symbols are optional.</value>
+  </data>
   <data name="themes" xml:space="preserve">
     <value>Themes</value>
   </data>
